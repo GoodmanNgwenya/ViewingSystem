@@ -9,7 +9,7 @@
       Title="UserDetails" HorizontalAlignment="Stretch">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40*"/>
+            <RowDefinition Height="5*"/>
             <RowDefinition Height="202*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -18,7 +18,7 @@
         <DataGrid Name="dataGridCalls" AutoGenerateColumns="False" ColumnWidth="*"  RowBackground="WhiteSmoke"  
                      Grid.Row="2" Background="LightBlue">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Outbound" Binding="{Binding Outbound}" Width="170"></DataGridTextColumn>
+                <DataGridTextColumn Header="Outbound"  Binding="{Binding Outbound}" Width="170"></DataGridTextColumn>
                 <DataGridTextColumn Header="Extension" Binding="{Binding Extension}" Width="170"></DataGridTextColumn>
                 <DataGridTextColumn Header="Caller Number" Binding="{Binding CallerNumber}" Width="170"></DataGridTextColumn>
                 <DataGridTextColumn Header="Recording" Binding="{Binding Recording}" Width="170"></DataGridTextColumn>
