@@ -20,7 +20,7 @@ namespace ViewingSystem
                 return new List<MenuItemsData> {
                 new MenuItemsData(){ PathData= (PathGeometry)dict["HomeIcon"], MenuText="Home" },
                 new MenuItemsData(){ PathData = (PathGeometry)dict["PeopleIcon"], MenuText="User" },
-                 new MenuItemsData(){ImagePath=(Image)dict["icon_home"], MenuText="Logout"}
+                 new MenuItemsData(){PathData=(PathGeometry)dict["icon_logout"], MenuText="Logout"}
                 };
             }
         }
@@ -29,7 +29,6 @@ namespace ViewingSystem
     public class MenuItemsData
     {
         public PathGeometry PathData { get; set; }
-        public Image ImagePath { get; set; }
         public bool IsItemSelected { get; set; }
         public string MenuText { get; set; }
     }

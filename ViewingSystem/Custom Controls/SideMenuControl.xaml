@@ -85,7 +85,6 @@
 
                                             <!--For data icon we will use Pichon App as it has lot of icons-->
                                             <Setter Property="Data" Value="{Binding PathData}"/>
-
                                             <!--Lets add triggers to our Icon-->
                                             <Style.Triggers>
                                                 <!--Since we have multiple conditions to show indicator on (IsMouseOver & IsSelected) we will use MultiDataTrigger-->
