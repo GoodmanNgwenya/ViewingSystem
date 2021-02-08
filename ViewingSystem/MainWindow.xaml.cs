@@ -24,19 +24,24 @@ namespace ViewingSystem
     {
         DataService _dataService;
         User user = new User();
-        public static int UserID = 0;
+
+        /// <summary>
+        /// Get and Set values for a global variables
+        /// </summary>
+        private static int userId;
+        public static int UserID
+        {
+            get { return userId; }
+            set { userId = value; }
+        }
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        bool WindowFlag = false;
+
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            // UserDetails page = new UserDetails();
-            // this.Content = page;
-
-
             _dataService = new DataService();
             try
             {

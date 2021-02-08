@@ -21,8 +21,7 @@ namespace ViewingSystem
     public partial class UserDetails : Page
     {
         DataService _dataService;
-        Caller _caller = new Caller();
-        public int UserId = 0;
+        public int UserId;
         public UserDetails()
         {
             InitializeComponent();
