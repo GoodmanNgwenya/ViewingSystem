@@ -9,8 +9,8 @@
         WindowState="Maximized">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <local:SideMenuControl x:Name="MenuList" FontSize="20" SelectedIndex="0" SelectionChanged="SideMenuControl_SelectionChanged"/>
         <Frame x:Name="frame" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden"/>

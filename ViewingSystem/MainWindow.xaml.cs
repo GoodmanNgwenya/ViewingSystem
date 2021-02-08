@@ -40,6 +40,11 @@ namespace ViewingSystem
         }
 
 
+        /// <summary>
+        /// Login button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
             _dataService = new DataService();

@@ -13,7 +13,7 @@
             <RowDefinition Height="202*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <DataGrid Name="dataGridCalls" AutoGenerateColumns="False" ColumnWidth="*"  RowBackground="WhiteSmoke"  
                      Grid.Row="2" Background="LightBlue">
